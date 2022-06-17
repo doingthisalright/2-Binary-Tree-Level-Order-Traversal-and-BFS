@@ -33,6 +33,10 @@ public class BinaryTreeLevelOrderTraversalAndBFS {
 
         final BinaryTree binaryTree = new BinaryTree(one);
 
+        binaryTree.printLevelOrderTraversal();
+        System.out.println(binaryTree.bfs(4));
+        System.out.println(binaryTree.bfs(-1));
+
         new BinaryTreeViewPrinter().printNode(binaryTree.root);
     }
 }
